@@ -1,1 +1,85 @@
+/* ===============================
+   FOOTER
+================================ */
 
+.site-footer{
+  background:#f5f5f5;
+  padding-top:60px;
+}
+
+/* container */
+
+.container{
+  max-width:1200px;
+  margin:auto;
+  padding:0 20px;
+}
+
+/* layout */
+
+.footer-inner{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1fr;
+  gap:50px;
+  padding-bottom:40px;
+}
+
+/* logo */
+
+.footer-logo{
+  width:180px;
+  margin-bottom:20px;
+}
+
+/* list */
+
+.footer-col ul{
+  list-style:none;
+}
+
+.footer-col ul li{
+  margin-bottom:10px;
+}
+
+.footer-col ul li a{
+  text-decoration:none;
+  color:#666;
+  transition:0.3s;
+}
+
+.footer-col ul li a:hover{
+  color:#104079;
+}
+
+/* copyright */
+
+.footer-bottom{
+  border-top:1px solid #ddd;
+  text-align:center;
+  padding:20px;
+  color:#666;
+}
+/* ===============================
+   FOOTER RESPONSIVE
+================================ */
+
+@media(max-width:900px){
+
+.footer-inner{
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+}
+
+@media(max-width:600px){
+
+.footer-inner{
+  grid-template-columns:1fr;
+}
+
+.footer-logo{
+  width:160px;
+}
+
+}
