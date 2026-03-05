@@ -83,3 +83,61 @@
 }
 
 }
+/* ===============================
+   HEADER
+================================ */
+
+.site-header{
+  background:#fff;
+  border-bottom:1px solid #eee;
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:80px;
+}
+
+/* logo */
+
+.header-logo img{
+  height:45px;
+}
+
+/* navigation */
+
+.main-nav ul{
+  display:flex;
+  list-style:none;
+  gap:40px;
+}
+
+.main-nav a{
+  text-decoration:none;
+  color:#333;
+  padding-bottom:6px;
+}
+
+/* active menu underline */
+
+.main-nav .active a{
+  border-bottom:3px solid #12ecc1;
+}
+
+/* button konsultasi */
+
+.btn-konsultasi{
+  background:#e6b800;
+  padding:12px 22px;
+  border-radius:10px;
+  text-decoration:none;
+  color:#fff;
+  display:inline-block;
+}
+
+/* hover */
+
+.btn-konsultasi:hover{
+  background:#d4a600;
+}
