@@ -31,56 +31,48 @@
   margin-bottom:20px;
 }
 
-/* list reset */
+/* title */
 
-.footer-col ul{
-  list-style:none;
-  padding:0;       /* menghilangkan indent bawaan */
-  margin:0;
+.footer-col h3{
+  margin-bottom:15px;
 }
 
-/* list item */
-
-.footer-col ul li{
+.footer-col h4{
+  margin-top:20px;
   margin-bottom:10px;
+  font-size:16px;
 }
 
 /* link */
 
-.footer-col ul li a{
+.footer-col a{
+  display:block;
   text-decoration:none;
-  color:#666;
+  color:#374151;
+  margin-bottom:10px;
   transition:0.3s;
 }
 
 /* hover */
 
-.footer-col ul li a:hover{
+.footer-col a:hover{
   color:#104079;
 }
 
-.footer-col h3{
-  margin-bottom:15px;
+/* paragraph */
+
+.footer-col p{
+  color:#374151;
+  line-height:1.6;
 }
+
 /* copyright */
 
 .footer-bottom{
   border-top:1px solid #ddd;
   text-align:center;
   padding:20px;
-  color:#666;
-}
-
-.footer-col a{
-  display:block;
-  text-decoration:none;
-  color:#666;
-  margin-bottom:10px;
-  transition:0.3s;
-}
-
-.footer-col a:hover{
-  color:#104079;
+  color:#374151;
 }
 
 /* ===============================
