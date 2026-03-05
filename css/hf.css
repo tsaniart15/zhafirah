@@ -71,6 +71,17 @@
   color:#666;
 }
 
+.footer-col a{
+  display:block;
+  text-decoration:none;
+  color:#666;
+  margin-bottom:10px;
+  transition:0.3s;
+}
+
+.footer-col a:hover{
+  color:#104079;
+}
 
 /* ===============================
    FOOTER RESPONSIVE
