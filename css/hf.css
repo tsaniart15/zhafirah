@@ -50,6 +50,22 @@
 .footer-col ul li a:hover{
   color:#104079;
 }
+.footer-col ul li{
+  margin-bottom:10px;
+  position:relative;
+  padding-left:18px;
+}
+
+.footer-col ul li::before{
+  content:"▪︎";
+  width:6px;
+  height:6px;
+  background:#12ecc1;
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  top:8px;
+}
 
 /* copyright */
 
