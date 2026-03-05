@@ -1,1 +1,75 @@
+/* ===============================
+   TYPOGRAPHY GLOBAL
+=============================== */
 
+body {
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #374151;
+}
+
+/* ===============================
+   HEADING DESKTOP
+=============================== */
+
+h1{
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000;
+}
+
+h2{
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000;
+}
+
+h3{
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+}
+
+h4{
+  font-family: 'Segoe UI', Arial, Sans-Serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+}
+
+/* ===============================
+   MOBILE TYPOGRAPHY
+=============================== */
+
+@media (max-width: 768px){
+
+  body{
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  h1{
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  h2{
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  h3{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h4{
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+}
